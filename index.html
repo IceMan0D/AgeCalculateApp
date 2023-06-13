@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="input">
+        <div class="day">
+          <form action="" method="post">
+            <h4 class="error">Day</h4>
+            <input id="dayInput" type="text" placeholder="DD">
+            <p class="errDay">This field is required</p>
+          </form>
+        </div>
+        <div class="month">
+          <form action="" method="post">
+            <h4 class="error">Month</h4>
+            <input id="monthInput" type="text" placeholder="MM">
+            <p class="errMonth">This field is required</p>
+          </form>
+        </div>
+        <div class="year" method="post">
+         <form action="">
+            <h4 class="error">Year</h4>
+            <input id="yearInput" type="text" placeholder="YYYY">
+            <p class="errYear">This field is required</p>
+         </form>
+        </div>
+      </div>
+      <div class="circle">
+        <div class="line"></div>
+        <button class="btn"><img src="./assets/images/icon-arrow.svg" alt="icon-arrow"></button>
+      </div>
+      <div class="calculate" >
+        <h2><span id="outputYear">--</span> years</h2>
+        <h2><span id="outputMonth">--</span> months</h2>
+        <h2><span id="outputDay">--</span> days </h2>
+      </div>
+    </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+</html>
