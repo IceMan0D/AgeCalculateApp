@@ -110,8 +110,21 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+    max-width: 700px;
+    max-height: 900px;
+    border-radius: 20px;
+  }
   .input {
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 2rem;
+  }
+  .input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
   }
   .line {
     width: 100%;
@@ -127,15 +140,6 @@ p {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-  }
-  input {
-    max-width: 110px;
-  }
-  .container {
-    padding: 1.5rem;
-    max-width: 500px;
-    max-height: 600px;
-    /* border-bottom-right-radius: 10%; */
   }
 
   section {
